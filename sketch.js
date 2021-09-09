@@ -65,7 +65,7 @@ function draw() {
 function running(){
 
   //For moving and changing animation write code here
-  if(keyDown("space")){
+  if(keyDown("LEFT_ARROW")){
 
     cat.velocityX = -5;
     cat.addAnimation("cat",catImg1);
